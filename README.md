@@ -1,4 +1,5 @@
-# LambdaTest-TestNG Certification
+# Lambdatest
+# TestNG Certification
 
 ---
 
@@ -32,9 +33,9 @@ You can set up the capabilities of the test in your BaseTest class:
 ln 13: HashMap<String, Object> ltOptions = new HashMap<>();
 ln 14: ltOptions.put("username", System.getenv("LT_USERNAME"));
 ln 15: ltOptions.put("accessKey", System.getenv("LT_ACCESS_KEY"));
-ln 16: ltOptions.put("project", "Selenium TestNG");
+ln 16: ltOptions.put("project", "Selenium 101 Certification"); //project name
 ln 17: ltOptions.put("name", "Test Scenario 1 " + browser + " in " + platform); // test name
-ln 18: ltOptions.put("build", "Simple Form Demo");
+ln 18: ltOptions.put("build", "Build name");
 ln 19: ltOptions.put("network", true); // Enable network logs
 ln 20: ltOptions.put("video", true); // Enable video recording
 ln 21: ltOptions.put("console", true); // Enable console logs
@@ -52,5 +53,11 @@ To start parallel tests, configure your TestNG XML file for parallel execution a
 $ mvn test -DsuiteXmlFile=testng.xml
 ```
 
-About LambdaTest
-LambdaTest is a cloud-based Selenium grid infrastructure that enables you to run automated cross-browser compatibility tests on 2000+ different browser and operating system environments. LambdaTest supports all programming languages and frameworks compatible with Selenium, with easy integrations into popular CI/CD platforms. It’s an excellent solution for enhancing your Selenium automation testing by increasing test coverage across multiple desktop and mobile browsers, while also reducing test execution time through parallel execution.
+## About LambdaTest
+
+[LambdaTest](https://www.lambdatest.com/) is a cloud based selenium grid infrastructure that can help you run automated cross browser compatibility tests on 2000+ different browser and operating system environments. LambdaTest supports all programming languages and frameworks that are supported with Selenium, and have easy integrations with all popular CI/CD platforms. It's a perfect solution to bring your [selenium automation testing](https://www.lambdatest.com/selenium-automation) to cloud based infrastructure that not only helps you increase your test coverage over multiple desktop and mobile browsers, but also allows you to cut down your test execution time by running tests on parallel.
+
+### For further References
+
+##### [SeleniumHQ Documentation](http://www.seleniumhq.org/docs/)
+##### [LambdaTest Documentation](https://www.lambdatest.com/support/docs/getting-started-with-lambdatest-automation/)
